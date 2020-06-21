@@ -36,4 +36,3 @@ for tags in bs_info.find_all('div',attrs={'class':'hd'}):
         print(atag.find('span',).text)
         # 获取电影名字 
 
-help(bs4)
